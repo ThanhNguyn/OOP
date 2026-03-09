@@ -1,6 +1,12 @@
 # Object-Oriented Programming (OOP) Coursework 🚀
 
-This repository contains my source code and assignments for the **Object-Oriented Programming** course - Information Systems major at [Viet Nam Japan University].
+This repository contains my source code and assignments for the **Object-Oriented Programming** course - Information Systems major at [Vietnam Japan University].
+
+## Overview
+This repo stores small programming exercises organized by week.
+Current focus:
+- Basic C++ syntax and problem solving
+- Basic Python syntax and calculator-style exercises from Think Python
 
 ## 🛠 Tech Stack
 - **Language:** [C++ / Python...]
