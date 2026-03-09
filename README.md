@@ -1,7 +1,7 @@
 # Object-Oriented Programming (OOP) Coursework 🚀
 
 ![Course](https://img.shields.io/badge/Course-OOP-orange)
-![C++](https://img.shields.io/badge/C%2B%2B-17-blue)
+![C++](https://img.shields.io/badge/C%2B%2B-23-blue)
 ![Python](https://img.shields.io/badge/Python-3.x-yellow)
 ![Status](https://img.shields.io/badge/Status-Learning-success)
 
@@ -43,7 +43,7 @@ OOP/
 3. Run files by language:
    - **C++ (PowerShell):**
      ```bash
-     g++ Week2/Ex1.2.cpp -o ex12
+     g++ -std=c++23 Week2/Ex1.2.cpp -o ex12
      .\\ex12.exe
      ```
    - **Python:**
@@ -54,5 +54,6 @@ OOP/
 ## 👤 Author
 - **Name:** Nguyen Tuan Thanh
 - **Student ID:** 25112107
-- **Email:** 25112107@st.vju.ac.vn
+- **Email:** 25112107@vnu.edu.vn
 - **GitHub:** [ThanhNguyn](https://github.com/ThanhNguyn)
+
