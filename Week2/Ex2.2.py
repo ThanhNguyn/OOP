@@ -28,3 +28,5 @@ h = arrive // 3600
 m = (arrive % 3600) // 60
 s = arrive % 60
 print(f"3) Get home at: {h:02d}:{m:02d}:{s:02d}")
+#:02d de in ra 2 chu so, neu nho hon 10 thi them so 0 vao truoc, vd 6:7:8 se in ra 06:07:08
+
