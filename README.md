@@ -54,13 +54,30 @@ OOP/
 │   ├── Ex2.cpp              : Exercise 2
 │   └── Ex3.cpp              : Exercise 3
 │
-└── Week7/   — File I/O, Dict (map), JSON Serialization
-    ├── baitap.cpp            : ★ Full homework — QuanLyCanBo with CSV/JSON/CLI menu
-    ├── canbo.csv             : Sample data (10 staff members)
-    ├── canbo.json            : Auto-generated JSON output
-    ├── canbo_json.cpp        : Early JSON serialization draft
-    └── single_include/
-        └── json.hpp          : nlohmann/json header-only library
+├── Week7/   — File I/O, Dict (map), JSON Serialization
+│   ├── baitap.cpp            : ★ Full homework — QuanLyCanBo with CSV/JSON/CLI menu
+│   ├── canbo.csv             : Sample data (10 staff members)
+│   ├── canbo.json            : Auto-generated JSON output
+│   ├── canbo_json.cpp        : Early JSON serialization draft
+│   └── single_include/
+│       └── json.hpp          : nlohmann/json header-only library
+│
+├── Week8/   — Use Case Diagram
+│   ├── README.md             : Mô tả biểu đồ use case
+│   └── diagrams/
+│       └── week8_usecase_diagram.png
+│
+└── Bonus/   — OOP-Grader (sv12.bcse-vju.com)
+    ├── ex1-1.cpp             : Point class (read, print, move, distance)
+    ├── ex1-2.cpp             : PointTest — test Point class
+    ├── ex2-1.cpp             : LineSegment class (length, angle, move)
+    ├── ex2-2.cpp             : LineSegmentTest — test LineSegment class
+    ├── ex3-1.cpp             : ColorPoint class (kế thừa Point)
+    ├── ex3-2.cpp             : ColorPointTest — test ColorPoint class
+    ├── ex4-1.cpp             : TuLanh (Refrigerator) class
+    ├── ex4-2.cpp             : TuLanhTest — test TuLanh class
+    └── Topic/                : Đề bài gốc (PDF)
+        ├── Bai 1.1.pdf … Bai 4.2.pdf
 ```
 
 ## 📝 Weekly Topics
@@ -74,6 +91,7 @@ OOP/
 | 5 | Inheritance & Polymorphism | Virtual functions, `override`, class hierarchy |
 | 6 | Exception Handling | Custom exceptions, operator overloading, file I/O |
 | 7 | File I/O & Serialization | CSV parsing, `map`, JSON (`nlohmann/json`), CLI menu |
+| 8 | Use Case Diagram | Actors, use cases, UML diagram (Draw.io) |
 
 ## 🚀 How to Run
 
@@ -93,6 +111,21 @@ OOP/
      ```bash
      python Week3/bai1.py
      ```
+
+## 🎯 Bonus — OOP-Grader
+
+Bài tập thực hành trên nền tảng [OOP-Grader VJU BCSE](https://sv12.bcse-vju.com/) — hệ thống chấm bài tự động (C++, Python, Java).
+
+| Bài | File | Nội dung |
+|-----|------|----------|
+| 1.1 | `ex1-1.cpp` | Lớp `Point` — read, print, move, distance |
+| 1.2 | `ex1-2.cpp` | `PointTest` — kiểm thử lớp Point |
+| 2.1 | `ex2-1.cpp` | Lớp `LineSegment` — length, angle, move |
+| 2.2 | `ex2-2.cpp` | `LineSegmentTest` — kiểm thử lớp LineSegment |
+| 3.1 | `ex3-1.cpp` | Lớp `ColorPoint` — kế thừa Point, thêm màu sắc |
+| 3.2 | `ex3-2.cpp` | `ColorPointTest` — kiểm thử lớp ColorPoint |
+| 4.1 | `ex4-1.cpp` | Lớp `TuLanh` — quản lý thông tin tủ lạnh |
+| 4.2 | `ex4-2.cpp` | `TuLanhTest` — kiểm thử lớp TuLanh |
 
 ## 👤 Author
 - **Name:** Nguyen Tuan Thanh
