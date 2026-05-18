@@ -67,7 +67,7 @@ OOP/
 │   └── diagrams/
 │       └── week8_usecase_diagram.png
 │
-└── Bonus/   — OOP-Grader (sv12.bcse-vju.com)
+└── Practice/   — OOP-Grader (sv12.bcse-vju.com)
     ├── ex1-1.cpp             : Point class (read, print, move, distance)
     ├── ex1-2.cpp             : PointTest — test Point class
     ├── ex2-1.cpp             : LineSegment class (length, angle, move)
